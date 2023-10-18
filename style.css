@@ -1,0 +1,45 @@
+div.container {
+    background-color: salmon;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    margin: 20px;
+    text-align: center;
+    font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: khaki;
+}
+
+.container{
+    display: flex;
+    flex-wrap: nowrap;
+    background-color: black; 
+}
+
+.container{
+    flex-wrap: wrap;
+}
+
+.container{
+    flex-flow: row wrap; 
+ }
+
+ .container{
+    /* flex-wrap: wrap; */
+    justify-content: center; 
+    justify-content: space-around;
+ }
+
+ .container{
+    /* height: 250px; */
+ align-items: center;
+ }
+
+ .container{
+    height: 600px;
+    flex-wrap: wrap;
+    overflow: scroll;
+    align-content: center;
+    flex-direction: ;
+}
